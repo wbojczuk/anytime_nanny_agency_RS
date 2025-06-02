@@ -31,9 +31,9 @@ export default function Footer() {
             <aside>
               <h3 className={styles.listTitle}>Categories</h3>
               <ul className={styles.list}>
-                <span className={styles.listItem}>Teen Support</span>
-                <span className={styles.listItem}>Empowering Teens</span>
-                <span className={styles.listItem}>Mentorship</span>
+               <span className={styles.listItem}>Nanny Agency</span>
+                <span className={styles.listItem}>Home Manager</span>
+                <span className={styles.listItem}>Babysitter</span>
               
               </ul>
             </aside>
