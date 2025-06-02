@@ -3,8 +3,8 @@ import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Hiring | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Hiring | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Employment | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Employment | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -28,7 +28,7 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function HiringPage(){
 	 return(
 	 	 <>
-			<PageTitle title="Hiring" subtitle="Apply for available positions" />
+			<PageTitle title="Employment" subtitle="Apply for available positions" />
 			<HiringContent />
 	 	 </>
 	 )

@@ -47,7 +47,7 @@ export default function Navbar() {
       ref: contactRef
     },
     {
-      triggers: ["/hiring"],
+      triggers: ["/employment"],
       ref: hiringRef
     },
     {
@@ -180,13 +180,13 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Apply For Nanny"
+          title="Application For Families"
           url="/apply"
           ref={applyRef}
           />
           <NavOption
-          title="Hiring"
-          url="/hiring"
+          title="Employment"
+          url="/employment"
           ref={hiringRef}
           />
 

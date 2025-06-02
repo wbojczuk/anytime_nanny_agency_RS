@@ -28,7 +28,7 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function ApplyPage(){
 	 return(
 	 	 <>
-			<PageTitle title="Apply For A Nanny" subtitle="Get the trusted care that your home needs" />
+			<PageTitle title="Application For Families" subtitle="Get the trusted care that your home needs" />
 			<ApplyContent />
 	 	 </>
 	 )
