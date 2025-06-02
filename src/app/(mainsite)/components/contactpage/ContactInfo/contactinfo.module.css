@@ -141,5 +141,7 @@
     .contentWrapper a{
         display: inline-block;
         margin-top: 0.5vw;
+
+        font-size: 1.1rem;
     }
 }
