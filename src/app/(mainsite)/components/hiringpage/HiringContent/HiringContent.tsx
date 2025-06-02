@@ -13,8 +13,6 @@ return (
       allow="geolocation; microphone; camera; fullscreen; payment"
       src="https://form.jotform.com/251526182498161"
       frameBorder="0"
-      
-      scrolling="no"
     >
     </iframe>
     <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
