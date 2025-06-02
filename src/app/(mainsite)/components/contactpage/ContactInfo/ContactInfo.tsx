@@ -2,21 +2,14 @@
 import styles from "./contactinfo.module.css"
 import FreeEstimateForm from "../FreeEstimateForm/FreeEstimateForm"
 import Shader from "../../misc/Shader/Shader"
-import { useEffect, useState } from "react"
 export default function ContactInfo() {
-
-  const [formElem, setFormElem] = useState(<div></div>)
-
-  useEffect(()=>{
-    setFormElem(<FreeEstimateForm />)
-  }, [])
-
+  
   return (
     <section className={styles.contactInfo}>
         <div className={styles.formWrapper}>
           <h2>Get in touch<span className="highlight">!</span></h2>
           <p>Contact us. We’re always happy to hear from someone and answer any questions you may have</p>
-          {formElem}
+          <FreeEstimateForm />
         </div>
         <div className={styles.imgWrapper}>
 
