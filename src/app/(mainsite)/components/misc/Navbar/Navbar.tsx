@@ -21,8 +21,8 @@ export default function Navbar() {
   const homeRef: any = useRef()
   const aboutRef: any = useRef()
   const contactRef: any = useRef()
-  const programsRef: any = useRef()
-  const volunteerRef: any = useRef()
+  const hiringRef: any = useRef()
+  const applyRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -45,6 +45,14 @@ export default function Navbar() {
     {
       triggers: ["/contact"],
       ref: contactRef
+    },
+    {
+      triggers: ["/hiring"],
+      ref: hiringRef
+    },
+    {
+      triggers: ["/apply"],
+      ref: applyRef
     }
     
   ]
@@ -169,6 +177,17 @@ export default function Navbar() {
           title="About"
           url="/about"
           ref={aboutRef}
+          />
+
+          <NavOption
+          title="Apply For Nanny"
+          url="/apply"
+          ref={applyRef}
+          />
+          <NavOption
+          title="Hiring"
+          url="/hiring"
+          ref={hiringRef}
           />
 
           <NavOption

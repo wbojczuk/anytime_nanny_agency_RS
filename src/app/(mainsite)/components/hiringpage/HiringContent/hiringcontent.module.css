@@ -1,0 +1,31 @@
+.applyContent{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    background-color: var(--primary-light);
+}
+
+.formWrapper{
+    margin-top: 3rem;
+    width: 60%;
+    position: relative;
+}
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+.formWrapper{
+    width: 70%;
+    position: relative;
+}
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+.formWrapper{
+    width: 90%;
+    position: relative;
+}
+}

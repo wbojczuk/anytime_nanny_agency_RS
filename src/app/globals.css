@@ -42,7 +42,7 @@ body{
   background-color: var(--primary-bg);
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  padding-top: 5vw;
+  padding-top: 8.5vw;
 }
 
 .mobile{

@@ -1,11 +1,10 @@
-import AboutContent from "@/app/(mainsite)/components/aboutpage/AboutContent/AboutContent"
-import LetsTalk from "@/app/(mainsite)/components/homepage/LetsTalk/LetsTalk"
+import ApplyContent from "@/app/(mainsite)/components/applypage/ApplyContent/ApplyContent"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `About | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `About | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Apply | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Apply | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,12 +25,11 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function AboutPage(){
+export default function ApplyPage(){
 	 return(
 	 	 <>
-			<PageTitle title="About" subtitle="The trusted care that sets Anytime Nanny Agency apart." />
-			<AboutContent />
-			<LetsTalk />
-		 </>
+			<PageTitle title="Apply For A Nanny" subtitle="Get the trusted care that your home needs" />
+			<ApplyContent />
+	 	 </>
 	 )
 }
