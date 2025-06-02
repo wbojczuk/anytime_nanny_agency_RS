@@ -34,7 +34,7 @@ export default function AboutWithIcons() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/about.png" alt="image of a woman" className={styles.mainImg} />
+            <img src="/img/about.webp" alt="image of a woman" className={styles.mainImg} />
             <Shader background="var(--primary-light)" opacity={.39} zIndex={100}/>
             {/* <div className={styles.imgStyle}></div> */}
           </div>

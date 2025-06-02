@@ -7,7 +7,7 @@ export default function AboutContent() {
   return (
     <section className={styles.section}>
         <div className={styles.imgWrapper}>
-            <img className={styles.img} src={"/img/aboutus.png"} width={360} height={600} alt="Image of teens" />
+            <img className={styles.img} src={"/img/aboutus.webp"} width={360} height={600} alt="Image of teens" />
             <Shader background="var(--primary-light)" opacity={.58} zIndex={1}/>
         </div>
         
@@ -22,7 +22,7 @@ We take pride in being a hands-on agency that matches families with trusted care
             <a href="/contact" className="main-link">Contact Us</a>
         </div>
 
-        <img src="/img/aboutus-bg.png" alt="image of a sunset" className="bg-img" />
+        <img src="/img/aboutus-bg.webp" alt="image of a sunset" className="bg-img" />
         <div className="shader" style={{backgroundColor: "rgba(255,255,255,.90)"}}></div>
     </section>
   )

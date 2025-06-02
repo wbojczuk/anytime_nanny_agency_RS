@@ -23,7 +23,7 @@ export default function ContactInfo() {
               <a href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUM}`}>{process.env.NEXT_PUBLIC_PHONE_NUM_FORMATTED}</a>
             </div>
 
-            <img src="/img/contact.png" alt="image of cross" className="bg-img" />
+            <img src="/img/contact.webp" alt="image of cross" className="bg-img" />
             <Shader background="var(--primary-color-dark)" opacity={0.8}  />
         </div>
         

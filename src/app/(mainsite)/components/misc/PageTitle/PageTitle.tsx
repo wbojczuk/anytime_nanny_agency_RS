@@ -11,7 +11,7 @@ export default function PageTitle(props: {title: string, subtitle: string, noBut
         
         </div>
 
-        <img src="/img/pagetitle.png" className="bg-img" aria-hidden />
+        <img src="/img/pagetitle.webp" className="bg-img" aria-hidden />
        <Shader background="var(--primary-light)" opacity={.92} />
     </header>
   )

@@ -22,7 +22,7 @@ export default function Header() {
         </div>
 
         <Shader background="white" opacity={.95} />
-        <img src="/img/header-bg.png" alt="Image of Bible" className="bg-img" />
+        <img src="/img/header-bg.webp" alt="Image of Bible" className="bg-img" />
 
         <div className={styles.pageBreak}></div>
     </header>

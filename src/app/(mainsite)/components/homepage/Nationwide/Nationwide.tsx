@@ -11,7 +11,7 @@ return (
 
     <h3>providing trusted care wherever you call home.</h3>
  
-    <img src='/img/nationwide.png' alt='Image of usa' className='bg-img' />
+    <img src='/img/nationwide.webp' alt='Image of usa' className='bg-img' />
     <div style={{backgroundColor: "rgba(255,255,255,.95)"}} className='shader'></div>
  </div>
 )};
