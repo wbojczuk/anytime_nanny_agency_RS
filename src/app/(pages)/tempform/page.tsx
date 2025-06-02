@@ -32,7 +32,7 @@ export default function TempformPage(){
     <legend>Client/Corporation Information</legend>
     <label>
       Client or Corporation Name(s)*:{" "}
-      <input type="text" name="client_name" required="" />
+      <input type="text" name="client_name" required />
     </label>
     <br />
     <label>
@@ -40,19 +40,19 @@ export default function TempformPage(){
     </label>
     <br />
     <label>
-      Home Address*: <input type="text" name="home_address" required="" />
+      Home Address*: <input type="text" name="home_address" required />
     </label>
     <br />
     <label>
-      City*: <input type="text" name="city" required="" />
+      City*: <input type="text" name="city" required />
     </label>
     <br />
     <label>
-      State*: <input type="text" name="state" required="" />
+      State*: <input type="text" name="state" required />
     </label>
     <br />
     <label>
-      Zip / Postal Code*: <input type="text" name="zip" required="" />
+      Zip / Postal Code*: <input type="text" name="zip" required />
     </label>
     <br />
     <label>
@@ -64,7 +64,7 @@ export default function TempformPage(){
     </label>
     <br />
     <label>
-      Home Email*: <input type="email" name="home_email" required="" />
+      Home Email*: <input type="email" name="home_email" required />
     </label>
     <br />
     <label>
@@ -119,7 +119,7 @@ export default function TempformPage(){
     <legend>Job Description - Part One</legend>
     <label>
       Description of Care Needed*:{" "}
-      <textarea name="job_description" required="" defaultValue={""} />
+      <textarea name="job_description" required defaultValue={""} />
     </label>
     <br />
     <label>
@@ -131,7 +131,7 @@ export default function TempformPage(){
     </label>
     <br />
     <label>
-      Salary Range*: <input type="text" name="salary_range" required="" />
+      Salary Range*: <input type="text" name="salary_range" required />
     </label>
     <br />
     <label>
