@@ -6,6 +6,7 @@ import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import { usePathname } from "next/navigation"
 import NavOption from "./NavOption"
+import NavMultiOption from "./NavMultiOption"
 
 
 export default function Navbar() {
@@ -29,6 +30,7 @@ export default function Navbar() {
   const content2Ref: any = useRef()
   const topBarRef: any = useRef()
   const navRef: any = useRef()
+  const formsRef: any = useRef()
 
 
   // ****************** Add Current Page Triggers HERE ******************
@@ -47,13 +49,17 @@ export default function Navbar() {
       ref: contactRef
     },
     {
-      triggers: ["/employment"],
+      triggers: ["/employment", "nursingcaregiver"],
       ref: hiringRef
     },
     {
       triggers: ["/apply"],
       ref: applyRef
-    }
+    },
+     {
+      triggers: ["/caregiverconsent"],
+      ref: formsRef
+    },
     
   ]
 
@@ -179,16 +185,23 @@ export default function Navbar() {
           ref={aboutRef}
           />
 
+          
+
           <NavOption
           title="Application For Families"
           url="/apply"
           ref={applyRef}
           />
-          <NavOption
-          title="Employment"
-          url="/employment"
+
+          <NavMultiOption 
+          ref={formsRef}
+          title="Forms" 
+          links={[{title: "Caregiver Consent", url: "/caregiverconsent"}]} />
+
+          <NavMultiOption 
           ref={hiringRef}
-          />
+          title="Employment" 
+          links={[{title: "Nanny", url: "/employment"}, {title: "Nursing Caregiver", url: "/nursingcaregiver"}]} />
 
           <NavOption
           title="Contact"
