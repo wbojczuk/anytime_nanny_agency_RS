@@ -4,15 +4,15 @@
 }
 
 :root{
-  --primary-color: #301D57;
-  
-  --secondary-color: white;
+  --primary-color: #a3a38b;
+   --primary-light: #ebead9;
+  --secondary-color: #f7f5ef;
   --third-color: #F6F6F6;
   --disabled-grey: #c2c2c2;
 
   
 
-  --primary-bg: #fff;
+  --primary-bg: #f7f5ef;
 
   /*
   ALREADY IMPORTED
@@ -26,11 +26,11 @@
   --primary-gradient-r: linear-gradient(to left, var(--primary-color) 0%, color-mix(in srgb, var(--primary-color) 50%, black 50%) 100%);
 
   --primary-color-dark: color-mix(in srgb, var(--primary-color) 60%, black 40%);
- --primary-light: #EEE5FF;
+
 
   /* END GENERATED VARS */
 
-  --primary-text-color: #301D57;
+  --primary-text-color: #52531f;
   --secondary-text-color: white;
 
   --section-padding: 4vw 0;
