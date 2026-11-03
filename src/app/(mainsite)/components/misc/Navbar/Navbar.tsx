@@ -189,7 +189,7 @@ export default function Navbar() {
 
           <NavOption
           title="Application For Families"
-          url="/apply"
+          url="/contact"
           ref={applyRef}
           />
 
@@ -198,10 +198,7 @@ export default function Navbar() {
           title="Forms" 
           links={[{title: "Caregiver Consent", url: "/caregiverconsent"}]} />
 
-          <NavMultiOption 
-          ref={hiringRef}
-          title="Employment" 
-          links={[{title: "Nanny", url: "/employment"}, {title: "Nursing Caregiver", url: "/nursingcaregiver"}]} />
+        
 
           <NavOption
           title="Contact"
