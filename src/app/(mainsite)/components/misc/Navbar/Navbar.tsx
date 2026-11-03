@@ -49,10 +49,6 @@ export default function Navbar() {
       ref: contactRef
     },
     {
-      triggers: ["/employment", "nursingcaregiver"],
-      ref: hiringRef
-    },
-    {
       triggers: ["/apply"],
       ref: applyRef
     },
